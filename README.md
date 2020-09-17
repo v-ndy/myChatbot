@@ -11,3 +11,6 @@
 
 ## Typing
   this bar will be used by the user to answer his correspondent  
+
+## Send bouton 
+  button send written message
