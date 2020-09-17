@@ -8,16 +8,7 @@
 /**
  Comments
  */
- @charset "utf-8";
 
-/**
- * Reset
- */
-@import "reset.css";
-
-/**
- * Contacts Profiles
- */
 body{
   width: 100vw;
   height: 100vh;
@@ -99,4 +90,101 @@ body{
   margin-top: 20px;
   display: block;
   font-size: 17px;
+}
+
+.messages {
+  float: right;
+  width: 70%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.messages--received {
+  float: right;
+  width: 50%;
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  /*position:absolute;
+  top:30px;
+  right:250px;*/
+
+}
+
+/* Darker chat container */
+.messages--recieved {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Style images */
+.messages--received-status-avatar img {
+  display: block;
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.messages--received-status img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.messages--received-status-date span {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.messages--received-text {
+  float: left;
+  color: #999;
+}
+
+/**
+ * Message send
+ */
+ .messages--send {
+  float: left;
+  width: 50%;
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  clear: both;
+}
+
+.messages--send-status-avatar img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.messages--send-status img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* Style time text */
+.messages--send-status-date {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.messages--send-text {
+  float: left;
+  color: #999;
 }
