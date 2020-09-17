@@ -188,3 +188,37 @@ body{
   float: left;
   color: #999;
 }
+
+.write-messages {
+  display: block;
+  background: #f1f1f1;
+  width:60%; 
+  padding: 15px 32px ;
+  border-radius: 20px ;
+  font-size: 30px;
+  height: 50px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  left: 50;
+  overflow-y:scroll; 
+}
+
+.Button-send {
+  display: block; 
+  text-align: center;
+  width:5%; 
+  height: 70px;
+  border:2px solid #4CAF50;
+  border-radius: 20px ;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5px;
+  overflow-y:scroll;
+
+}
+
+form {
+  width: 30vh;
+}
