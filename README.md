@@ -8,4 +8,6 @@
 ## Messages
   interactive conversation bubble chat question answer
 
-  
+
+## Typing
+  this bar will be used by the user to answer his correspondent  
